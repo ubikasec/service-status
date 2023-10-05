@@ -145,6 +145,7 @@ params:
   categories:
     - name: Cloud Protector Legacy (eu-west-2)
     - name: Cloud Protector (eu-west-2)
+    - name: Temporary Test
 
   # These are your systems. Change them to
   # change the amount of components.
@@ -169,6 +170,8 @@ params:
     - name: Runtime (eu-west-2)
       displayName: Runtime
       category: Cloud Protector (eu-west-2)
+    - name: Test Console
+      category: Temporary Test
 
   # What date format to use?
   #
