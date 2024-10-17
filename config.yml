@@ -144,7 +144,7 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
     - name: Cloud Protector Legacy (eu-west-2)
-    - name: Cloud Protector (eu-west-2)
+    - name: Cloud Protector
 
   # These are your systems. Change them to
   # change the amount of components.
@@ -160,15 +160,18 @@ params:
     - name: Runtime (legacy)
       displayName: Runtime
       category: Cloud Protector Legacy (eu-west-2)
-    - name: Console (eu-west-2)
+    - name: Console (gra9)
       displayName: Console
-      category: Cloud Protector (eu-west-2)
-    - name: API (eu-west-2)
+      category: Cloud Protector
+    - name: API (gra9)
       displayName: API
-      category: Cloud Protector (eu-west-2)
-    - name: Runtime (eu-west-2)
-      displayName: Runtime
-      category: Cloud Protector (eu-west-2)
+      category: Cloud Protector
+    - name: Runtime (gra11)
+      displayName: Runtime - Gravelines
+      category: Cloud Protector
+    - name: Runtime (sbg5)
+      displayName: Runtime - Strasbourg
+      category: Cloud Protector
 
   # What date format to use?
   #
