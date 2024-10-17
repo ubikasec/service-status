@@ -166,11 +166,16 @@ params:
     - name: API (gra9)
       displayName: API
       category: Cloud Protector
+# keep the global runtime for zabbix check
+# manual information can go in specific runtime if only one is impaired
+    - name: Runtime
+      displayName: Runtime - Global
+      category: Cloud Protector
     - name: Runtime (gra11)
-      displayName: Runtime - Gravelines
+      displayName: Runtime - Gravelines DC
       category: Cloud Protector
     - name: Runtime (sbg5)
-      displayName: Runtime - Strasbourg
+      displayName: Runtime - Strasbourg DC
       category: Cloud Protector
 
   # What date format to use?
