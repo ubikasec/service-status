@@ -250,7 +250,7 @@ params:
   #
   # Default: `yearly`
   # STRING; `monthly`, `yearly`, `none`
-  incidentHistoryFormat: "yearly"
+  incidentHistoryFormat: "monthly"
 
   # Should incident history be hidden?
   #
@@ -321,7 +321,7 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  disableComplexCalculations: false
+  disableComplexCalculations: true
 
   # Incident posts shown
   # in one page
