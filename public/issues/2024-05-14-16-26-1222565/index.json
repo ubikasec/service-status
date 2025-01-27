@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Disruption Detected",
+  "body": "\u003cp\u003eCher client, cher partenaire,\u003c/p\u003e\n\u003cp\u003eLa plateforme Cloud Protector est à nouveau totalement opérationnelle.\nNous vous ferons parvenir un rapport d’incident détaillé dans les meilleurs délais.\nNous nous excusons encore pour la gêne occasionnée.\u003c/p\u003e\n\u003cp\u003eL’équipe support Ubika\u003c/p\u003e\n",
+  "createdAt": "2024-05-14 16:26:40.990115705 +0200 +0200",
+  "lastMod": "2024-10-17 16:24:25 +0200 +0200",
+  "permalink": "http://localhost:1313/issues/2024-05-14-16-26-1222565/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2024-05-14T19:36:37.967274133+02:00",
+  "affected": ["Runtime", "Runtime (legacy)"],
+  "filename": "2024-05-14-16-26-1222565.md"
+}

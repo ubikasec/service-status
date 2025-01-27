@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "SYN flood attack",
+  "body": "\u003cp\u003eDear Customer, Dear Partner,\u003c/p\u003e\n\u003cp\u003eA SYN Flood attack occurred on Tuesday, 12/31/2024, starting at 7:00 AM, targeting the load balancer upstream of the Cloud Protector infrastructure.\nThe service remained operational with a minor impact on the platform\u0026rsquo;s response time. However, some probes turned red due to packet loss (without retries).\nThe attack was moderate and ended on Wednesday, 01/01/2025, at 7:00 AM.\u003c/p\u003e\n\u003cp\u003eThe Ubika Support Team\u003c/p\u003e\n",
+  "createdAt": "2024-12-31 18:00:40.990115705 +0200 +0200",
+  "lastMod": "2025-01-10 16:15:08 +0100 +0100",
+  "permalink": "http://localhost:1313/issues/2024-12-31-10-50-1309220/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2025-01-01T07:30:00",
+  "affected": ["Runtime"],
+  "filename": "2024-12-31-10-50-1309220.md"
+}

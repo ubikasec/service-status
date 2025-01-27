@@ -1,0 +1,27 @@
+{
+  "is": "system",
+  "title": "Console",
+  "permalink": "http://localhost:1313/affected/console/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Maintenance on Jan 14",
+        "createdAt": "2025-01-14 08:30:00 +0000 UTC",
+        "lastMod": "2025-01-14 08:30:00 +0000 UTC",
+        "permalink": "http://localhost:1313/issues/2025-01-13/",
+        "severity": "<no value>",
+        "resolved": false,
+        "informational": true,
+        "resolvedAt": "<no value>",
+        "affected": ["Console"],
+        "filename": "2025-01-13.md"
+      }
+    
+  ]
+}
+
+
+
+
+

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="http://localhost:1313/"/>
+    <title>Runtime (Legacy) on UBIKA Service Status</title>
+    <link>http://localhost:1313/affected/runtime-legacy/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2024-12-31T23:21:53+01:00</lastBuildDate>
+    <updated>2024-12-31T23:21:53+01:00</updated>
+    
+    
+    
+      <atom:link href="http://localhost:1313/affected/runtime-legacy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Disruption Detected</title>
+        <link>http://localhost:1313/issues/2024-12-31-23-21-1317381/</link>
+        <pubDate>Tue, 31 Dec 2024 23:21:53 +0100</pubDate>
+        <guid>http://localhost:1313/issues/2024-12-31-23-21-1317381/</guid>
+        <category>2024-12-31T23:27:52.464650359&#43;01:00</category>
+        <description>&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Disruption Detected</title>
+        <link>http://localhost:1313/issues/2024-12-31-22-44-1317342/</link>
+        <pubDate>Tue, 31 Dec 2024 22:44:53 +0100</pubDate>
+        <guid>http://localhost:1313/issues/2024-12-31-22-44-1317342/</guid>
+        <category>2024-12-31T22:50:52.08926411&#43;01:00</category>
+        <description>&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Customer under attack</title>
+        <link>http://localhost:1313/issues/2024-12-08-13-37-1308726/</link>
+        <pubDate>Sun, 08 Dec 2024 13:37:54 +0100</pubDate>
+        <guid>http://localhost:1313/issues/2024-12-08-13-37-1308726/</guid>
+        <category>2024-12-08T15:10:52.005223612&#43;01:00</category>
+        <description>&lt;p&gt;A customer has been attacked. The load-balancer affected to this customer and some others had his queue overloaded. &lt;strong&gt;IMPACT:&lt;/strong&gt; there is a slow-down to handle traffic. No interruption identified.&lt;/p&gt;
+&lt;p&gt;The customer has been evicted, but the attack did not follow the DNS change. The load balancer was tuned to handle the remaining load without impacting the legitimate traffic.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;A customer has been attacked. The load-balancer affected to this customer and some others had his queue overloaded. &lt;strong&gt;IMPACT:&lt;/strong&gt; there is a slow-down to handle traffic. No interruption identified.&lt;/p&gt;
+&lt;p&gt;The customer has been evicted, but the attack did not follow the DNS change. The load balancer was tuned to handle the remaining load without impacting the legitimate traffic.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Disruption Detected</title>
+        <link>http://localhost:1313/issues/2024-12-06-14-35-1307723/</link>
+        <pubDate>Fri, 06 Dec 2024 14:35:53 +0100</pubDate>
+        <guid>http://localhost:1313/issues/2024-12-06-14-35-1307723/</guid>
+        <category>2024-12-06T14:37:51.169037021&#43;01:00</category>
+        <description>&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Legacy load balancer saturation</title>
+        <link>http://localhost:1313/issues/2024-11-26-00-23-1304138/</link>
+        <pubDate>Tue, 26 Nov 2024 00:23:54 +0100</pubDate>
+        <guid>http://localhost:1313/issues/2024-11-26-00-23-1304138/</guid>
+        <category>2024-11-26T00:33:52.515034729&#43;01:00</category>
+        <description>&lt;p&gt;One load balancer was attacked. It’s incoming session queue was overloaded. As a consequence, some requests may have timeout.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;One load balancer was attacked. It’s incoming session queue was overloaded. As a consequence, some requests may have timeout.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Legacy load balancer saturation</title>
+        <link>http://localhost:1313/issues/2024-11-26-00-07-1304128/</link>
+        <pubDate>Tue, 26 Nov 2024 00:07:55 +0100</pubDate>
+        <guid>http://localhost:1313/issues/2024-11-26-00-07-1304128/</guid>
+        <category>2024-11-26T00:13:52.651398697&#43;01:00</category>
+        <description>&lt;p&gt;One load balancer was attacked. It’s incoming session queue was overloaded. As a consequence, some requests may have timeout.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;One load balancer was attacked. It’s incoming session queue was overloaded. As a consequence, some requests may have timeout.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Legacy load balancer saturation</title>
+        <link>http://localhost:1313/issues/2024-11-25-23-41-1304115/</link>
+        <pubDate>Mon, 25 Nov 2024 23:41:52 +0100</pubDate>
+        <guid>http://localhost:1313/issues/2024-11-25-23-41-1304115/</guid>
+        <category>2024-11-25T23:45:50.697734816&#43;01:00</category>
+        <description>&lt;p&gt;One load balancer was attacked. It’s incoming session queue was overloaded. As a consequence, some requests may have timeout.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;One load balancer was attacked. It’s incoming session queue was overloaded. As a consequence, some requests may have timeout.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Legacy load balancer saturation</title>
+        <link>http://localhost:1313/issues/2024-11-25-22-51-1304093/</link>
+        <pubDate>Mon, 25 Nov 2024 22:51:55 +0100</pubDate>
+        <guid>http://localhost:1313/issues/2024-11-25-22-51-1304093/</guid>
+        <category>2024-11-25T22:55:51.772343908&#43;01:00</category>
+        <description>&lt;p&gt;One load balancer was attacked. It’s incoming session queue was overloaded. As a consequence, some requests may have timeout.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;One load balancer was attacked. It’s incoming session queue was overloaded. As a consequence, some requests may have timeout.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Disruption Detected</title>
+        <link>http://localhost:1313/issues/2024-10-21-09-21-1287067/</link>
+        <pubDate>Mon, 21 Oct 2024 09:21:50 +0200</pubDate>
+        <guid>http://localhost:1313/issues/2024-10-21-09-21-1287067/</guid>
+        <category>2024-10-21T09:23:51.292262108&#43;02:00</category>
+        <description>&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Disruption Detected</title>
+        <link>http://localhost:1313/issues/2024-09-04-10-49-1264729/</link>
+        <pubDate>Wed, 04 Sep 2024 10:49:53 +0200</pubDate>
+        <guid>http://localhost:1313/issues/2024-09-04-10-49-1264729/</guid>
+        <category>2024-09-04T10:59:51.299179813&#43;02:00</category>
+        <description>&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Disruption Detected</title>
+        <link>http://localhost:1313/issues/2024-08-03-23-50-1253744/</link>
+        <pubDate>Sat, 03 Aug 2024 23:50:51 +0200</pubDate>
+        <guid>http://localhost:1313/issues/2024-08-03-23-50-1253744/</guid>
+        <category>2024-08-04T00:03:51.062977456&#43;02:00</category>
+        <description>&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Disruption Detected</title>
+        <link>http://localhost:1313/issues/2024-07-04-22-15-1243504/</link>
+        <pubDate>Thu, 04 Jul 2024 22:15:54 +0200</pubDate>
+        <guid>http://localhost:1313/issues/2024-07-04-22-15-1243504/</guid>
+        <category>2024-07-04T22:16:51.327208453&#43;02:00</category>
+        <description>&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Disruption Detected</title>
+        <link>http://localhost:1313/issues/2024-05-30-14-19-1230390/</link>
+        <pubDate>Thu, 30 May 2024 14:19:53 +0200</pubDate>
+        <guid>http://localhost:1313/issues/2024-05-30-14-19-1230390/</guid>
+        <category>2024-05-30T14:22:51.073756636&#43;02:00</category>
+        <description>&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Disruption Detected</title>
+        <link>http://localhost:1313/issues/2024-05-14-16-26-1222565/</link>
+        <pubDate>Tue, 14 May 2024 16:26:40 +0200</pubDate>
+        <guid>http://localhost:1313/issues/2024-05-14-16-26-1222565/</guid>
+        <category>2024-05-14T19:36:37.967274133&#43;02:00</category>
+        <description>&lt;p&gt;Cher client, cher partenaire,&lt;/p&gt;
+&lt;p&gt;La plateforme Cloud Protector est à nouveau totalement opérationnelle.
+Nous vous ferons parvenir un rapport d’incident détaillé dans les meilleurs délais.
+Nous nous excusons encore pour la gêne occasionnée.&lt;/p&gt;
+&lt;p&gt;L’équipe support Ubika&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;Cher client, cher partenaire,&lt;/p&gt;
+&lt;p&gt;La plateforme Cloud Protector est à nouveau totalement opérationnelle.
+Nous vous ferons parvenir un rapport d’incident détaillé dans les meilleurs délais.
+Nous nous excusons encore pour la gêne occasionnée.&lt;/p&gt;
+&lt;p&gt;L’équipe support Ubika&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Disruption Detected</title>
+        <link>http://localhost:1313/issues/2024-03-30-03-52-648313/</link>
+        <pubDate>Fri, 29 Mar 2024 17:15:50 +0000</pubDate>
+        <guid>http://localhost:1313/issues/2024-03-30-03-52-648313/</guid>
+        <category>2024-03-30T07:25:00.000&#43;00:00</category>
+        <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Our monitoring reports protected applications down. 
+  &lt;span class=&#34;faded&#34;&gt;(17:15 — Mar 29)&lt;/span&gt;
+
+&lt;br&gt;
+The alert affects only one customer that faces intermittent network interruptions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Investigations ongoing. 
+  &lt;span class=&#34;faded&#34;&gt;(19:49 — Mar 29)&lt;/span&gt;
+
+&lt;br&gt;
+Escalation to OVH support.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Root cause identified. 
+  &lt;span class=&#34;faded&#34;&gt;(07:25 — Mar 30)&lt;/span&gt;
+
+&lt;br&gt;
+Fix deployed. Situation back to normal. The affected customer will be provided a detailed report incident.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Our monitoring reports protected applications down. 
+  &lt;span class=&#34;faded&#34;&gt;(17:15 — Mar 29)&lt;/span&gt;
+
+&lt;br&gt;
+The alert affects only one customer that faces intermittent network interruptions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Investigations ongoing. 
+  &lt;span class=&#34;faded&#34;&gt;(19:49 — Mar 29)&lt;/span&gt;
+
+&lt;br&gt;
+Escalation to OVH support.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Root cause identified. 
+  &lt;span class=&#34;faded&#34;&gt;(07:25 — Mar 30)&lt;/span&gt;
+
+&lt;br&gt;
+Fix deployed. Situation back to normal. The affected customer will be provided a detailed report incident.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Disruption Detected</title>
+        <link>http://localhost:1313/issues/2024-03-25-14-06-528463/</link>
+        <pubDate>Mon, 25 Mar 2024 14:06:51 +0100</pubDate>
+        <guid>http://localhost:1313/issues/2024-03-25-14-06-528463/</guid>
+        <category>2024-03-25T14:08:50.85176341&#43;01:00</category>
+        <description>&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Maintenance on Mar 11</title>
+        <link>http://localhost:1313/issues/2024-03-11-07-00/</link>
+        <pubDate>Mon, 11 Mar 2024 07:00:00 +0000</pubDate>
+        <guid>http://localhost:1313/issues/2024-03-11-07-00/</guid>
+        <category>2024-03-11 11:32:00</category>
+        <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Description:&lt;/strong&gt; Software Upgrade&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;When:&lt;/strong&gt; Expected Upgrade Start Date and Time: 11 March 2024 at 8:00am CET to 10:00am CET&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Business Impact:&lt;/strong&gt; This duration defines the Maintenance Window only and does not reflect a downtime duration. Interruption should not last longer than 5 minutes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Expected action(s) from customer:&lt;/strong&gt; None.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our private cloud hoster OVHCloud will deploy an urgent upgrade on the network component of our cluster. Upgrade should be transparent and without interruption during the network router rollout. But we prefer to announce a potential interruption &lt;strong&gt;that should not last longer than 5 minutes&lt;/strong&gt;.&lt;/p&gt;</description>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Description:&lt;/strong&gt; Software Upgrade&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;When:&lt;/strong&gt; Expected Upgrade Start Date and Time: 11 March 2024 at 8:00am CET to 10:00am CET&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Business Impact:&lt;/strong&gt; This duration defines the Maintenance Window only and does not reflect a downtime duration. Interruption should not last longer than 5 minutes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Expected action(s) from customer:&lt;/strong&gt; None.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our private cloud hoster OVHCloud will deploy an urgent upgrade on the network component of our cluster. Upgrade should be transparent and without interruption during the network router rollout. But we prefer to announce a potential interruption &lt;strong&gt;that should not last longer than 5 minutes&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;You have nothing to do on your side. DNS records and IP addresses will remain unchanged. This upgrade will be completely transparent for you, besides the potential network interruption.&lt;/p&gt;
+&lt;p&gt;We apologize for the inconvenience caused by this upgrade. Please do not hesitate to contact our support team if you encounter any problems following this upgrade.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Disruption Detected</title>
+        <link>http://localhost:1313/issues/2024-02-06-16-29/</link>
+        <pubDate>Tue, 06 Feb 2024 16:29:00 +0100</pubDate>
+        <guid>http://localhost:1313/issues/2024-02-06-16-29/</guid>
+        <category>2024-02-06T17:34:00.14556055&#43;01:00</category>
+        <description>&lt;p&gt;Our monitoring probes reported instability in access to public IP addresses carrying application traffic.&lt;br&gt;
+We also saw major disruptions in access to the Cloud Protector administration console.&lt;/p&gt;
+&lt;p&gt;Traffic continues to be processed, however, with an average latency of 30s.&lt;br&gt;
+No abnormal traffic was observed, and application DDoS attacks were immediately ruled out.&lt;/p&gt;
+&lt;p&gt;We conclude that the cause is external to our infrastructure. Despite opening an incident with our service provider, we have been unable to obtain any clues as to the cause of the incident.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;Our monitoring probes reported instability in access to public IP addresses carrying application traffic.&lt;br&gt;
+We also saw major disruptions in access to the Cloud Protector administration console.&lt;/p&gt;
+&lt;p&gt;Traffic continues to be processed, however, with an average latency of 30s.&lt;br&gt;
+No abnormal traffic was observed, and application DDoS attacks were immediately ruled out.&lt;/p&gt;
+&lt;p&gt;We conclude that the cause is external to our infrastructure. Despite opening an incident with our service provider, we have been unable to obtain any clues as to the cause of the incident.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Disruption Detected</title>
+        <link>http://localhost:1313/issues/2024-01-29-00-51-431129/</link>
+        <pubDate>Mon, 29 Jan 2024 00:51:55 +0100</pubDate>
+        <guid>http://localhost:1313/issues/2024-01-29-00-51-431129/</guid>
+        <category>2024-01-29T00:54:51.040206233&#43;01:00</category>
+        <description>&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Disruption Detected</title>
+        <link>http://localhost:1313/issues/2024-01-12-13-20-429397/</link>
+        <pubDate>Fri, 12 Jan 2024 13:20:56 +0100</pubDate>
+        <guid>http://localhost:1313/issues/2024-01-12-13-20-429397/</guid>
+        <category>2024-01-12T13:21:49.130732305&#43;01:00</category>
+        <description>&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Maintenance on Dec 18</title>
+        <link>http://localhost:1313/issues/2023-12-18-07-00/</link>
+        <pubDate>Mon, 18 Dec 2023 06:00:00 +0000</pubDate>
+        <guid>http://localhost:1313/issues/2023-12-18-07-00/</guid>
+        <category>2023-11-18 06:15:00</category>
+        <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Description:&lt;/strong&gt; Hardware Upgrade&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;When:&lt;/strong&gt; Expected Upgrade Start Date and Time: 18 December 2023 at 7:00am CET to 8:00am CET&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Business Impact:&lt;/strong&gt; This duration defines the Maintenance Window only and does not reflect a downtime duration. Interruption should not last longer than 5 minutes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Expected action(s) from customer:&lt;/strong&gt; None.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our OVHCloud private cloud infrastructure hosting UBIKA Cloud Protector is currently using an edge network management component that reached end-of-life support. Thus we must migrate to the new infrastructure provided by our private cloud provider. We are now ready to launch this migration.&lt;br&gt;
+During the migration, &lt;strong&gt;a network interruption is expected when moving the routing of our IP addresses pool&lt;/strong&gt; to the target infrastructure. &lt;strong&gt;This interruption should not last longer than 5 minutes&lt;/strong&gt;. During our tests, we observed an interruption between 2min and 2min30s.&lt;/p&gt;</description>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Description:&lt;/strong&gt; Hardware Upgrade&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;When:&lt;/strong&gt; Expected Upgrade Start Date and Time: 18 December 2023 at 7:00am CET to 8:00am CET&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Business Impact:&lt;/strong&gt; This duration defines the Maintenance Window only and does not reflect a downtime duration. Interruption should not last longer than 5 minutes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Expected action(s) from customer:&lt;/strong&gt; None.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our OVHCloud private cloud infrastructure hosting UBIKA Cloud Protector is currently using an edge network management component that reached end-of-life support. Thus we must migrate to the new infrastructure provided by our private cloud provider. We are now ready to launch this migration.&lt;br&gt;
+During the migration, &lt;strong&gt;a network interruption is expected when moving the routing of our IP addresses pool&lt;/strong&gt; to the target infrastructure. &lt;strong&gt;This interruption should not last longer than 5 minutes&lt;/strong&gt;. During our tests, we observed an interruption between 2min and 2min30s.&lt;/p&gt;
+&lt;p&gt;You have nothing to do on your side. DNS records and IP addresses will remain unchanged. This migration will be completely transparent for you, besides the network interruption.&lt;/p&gt;
+&lt;p&gt;We apologize for the inconvenience caused by this migration. We are doing our utmost to minimize the impact of the interruption. Please do not hesitate to contact our support team if you encounter any problems following this migration.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Disruption Detected</title>
+        <link>http://localhost:1313/issues/2023-11-23-12-46-406045/</link>
+        <pubDate>Thu, 23 Nov 2023 12:46:52 +0100</pubDate>
+        <guid>http://localhost:1313/issues/2023-11-23-12-46-406045/</guid>
+        <category>2023-11-23T12:48:51.724480362&#43;01:00</category>
+        <description>&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Disruption Detected</title>
+        <link>http://localhost:1313/issues/2023-11-07-10-08-403362/</link>
+        <pubDate>Tue, 07 Nov 2023 10:08:53 +0100</pubDate>
+        <guid>http://localhost:1313/issues/2023-11-07-10-08-403362/</guid>
+        <category>2023-11-07T10:12:50.161587648&#43;01:00</category>
+        <description>&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Disruption Detected</title>
+        <link>http://localhost:1313/issues/2023-10-17-12-37-397274/</link>
+        <pubDate>Tue, 17 Oct 2023 12:37:54 +0200</pubDate>
+        <guid>http://localhost:1313/issues/2023-10-17-12-37-397274/</guid>
+        <category>2023-10-17T12:41:50.218703033&#43;02:00</category>
+        <description>&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+This is an automatic post by a monitor bot.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

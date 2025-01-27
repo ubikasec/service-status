@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Major outage on runtime",
+  "body": "\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eOur monitoring reports protected applications down and runtime cluster going red. \n  \u003cspan class=\"faded\"\u003e(17:40 — Oct 23)\u003c/span\u003e\n\n\u003cbr\u003e\nRuntime cluster reports 100% CPU without significant network load. Investigation is going on.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eOur private cloud reports runtime hosts as dead, runtime cluster is not reacheable any more \n  \u003cspan class=\"faded\"\u003e(18:05 — Oct 23)\u003c/span\u003e\n\n.\u003cbr\u003e\nThe team decides to hard-reboot the runtime cluster.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eCluster is back and running \n  \u003cspan class=\"faded\"\u003e(18:09 — Oct 23)\u003c/span\u003e\n\n.\u003cbr\u003e\nTeam will investigate during working hour on why the cluster went 100% CPU without traffic to avoid this situtaition again.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n",
+  "createdAt": "2023-10-23 17:40:00 +0000 UTC",
+  "lastMod": "2024-10-17 16:24:25 +0200 +0200",
+  "permalink": "http://localhost:1313/issues/2023-10-23-17-40/",
+  "severity": "down",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2023-10-23 18:09:00",
+  "affected": ["Runtime"],
+  "filename": "2023-10-23-17-40.md"
+}

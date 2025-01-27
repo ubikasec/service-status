@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Disruption Detected",
+  "body": "\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.\nThis is an automatic post by a monitor bot.\u003c/p\u003e\n",
+  "createdAt": "2024-08-24 23:51:42.661667276 +0200 +0200",
+  "lastMod": "2024-10-17 16:24:25 +0200 +0200",
+  "permalink": "http://localhost:1313/issues/2024-08-24-23-51-1261079/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2024-08-24T23:55:39.332771181+02:00",
+  "affected": ["Runtime"],
+  "filename": "2024-08-24-23-51-1261079.md"
+}

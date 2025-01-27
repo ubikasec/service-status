@@ -1,0 +1,139 @@
+{
+  "is": "system",
+  "title": "Runtime (Eu-West-2)",
+  "permalink": "http://localhost:1313/affected/runtime-eu-west-2/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Decommissioning of the CP NG intermediate platform (178.33.22.59) by the end of 2024.",
+        "createdAt": "2024-12-31 00:00:00 +0000 UTC",
+        "lastMod": "2025-01-10 16:15:39 +0100 +0100",
+        "permalink": "http://localhost:1313/issues/2024-12-16-00-00-00/",
+        "severity": "<no value>",
+        "resolved": true,
+        "informational": true,
+        "resolvedAt": "<no value>",
+        "affected": ["Runtime (eu-west-2)"],
+        "filename": "2024-12-16-00-00-00.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Disruption Detected",
+        "createdAt": "2024-12-10 04:41:13.36206431 +0100 +0100",
+        "lastMod": "2024-12-10 04:43:06 +0100 +0100",
+        "permalink": "http://localhost:1313/issues/2024-12-10-04-41-1309220/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-12-10T04:43:06.430543119+01:00",
+        "affected": ["Runtime (eu-west-2)"],
+        "filename": "2024-12-10-04-41-1309220.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Disruption Detected",
+        "createdAt": "2024-11-29 18:06:43.349817472 +0100 +0100",
+        "lastMod": "2024-11-29 18:07:40 +0100 +0100",
+        "permalink": "http://localhost:1313/issues/2024-11-29-18-06-1305710/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-11-29T18:07:40.713132392+01:00",
+        "affected": ["Runtime (eu-west-2)"],
+        "filename": "2024-11-29-18-06-1305710.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Disruption Detected",
+        "createdAt": "2024-11-06 18:03:40.24689068 +0100 +0100",
+        "lastMod": "2024-11-06 18:47:39 +0100 +0100",
+        "permalink": "http://localhost:1313/issues/2024-11-06-18-03-1294928/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-11-06T18:47:39.372571989+01:00",
+        "affected": ["Runtime (eu-west-2)"],
+        "filename": "2024-11-06-18-03-1294928.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Disruption Detected",
+        "createdAt": "2024-11-06 12:07:39.856998833 +0100 +0100",
+        "lastMod": "2024-11-06 12:21:39 +0100 +0100",
+        "permalink": "http://localhost:1313/issues/2024-11-06-12-07-1294532/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-11-06T12:21:38.964201757+01:00",
+        "affected": ["Runtime (eu-west-2)"],
+        "filename": "2024-11-06-12-07-1294532.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Configuration deployment issues",
+        "createdAt": "2024-11-04 13:51:41.973922652 +0100 +0100",
+        "lastMod": "2024-11-05 10:01:14 +0100 +0100",
+        "permalink": "http://localhost:1313/issues/2024-11-04-13-51-1293693/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-11-05T09:40:00+01:00",
+        "affected": ["Runtime (eu-west-2)"],
+        "filename": "2024-11-04-13-51-1293693.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Let’s Encrypt certificate expiration starting on 4 November",
+        "createdAt": "2024-11-04 00:00:00 +0000 UTC",
+        "lastMod": "2024-12-16 14:51:32 +0100 +0100",
+        "permalink": "http://localhost:1313/issues/2024-11-04-00-00-00/",
+        "severity": "<no value>",
+        "resolved": true,
+        "informational": true,
+        "resolvedAt": "<no value>",
+        "affected": ["Runtime (eu-west-2)"],
+        "filename": "2024-11-04-00-00-00.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Disruption Detected",
+        "createdAt": "2024-11-01 21:56:39.439394045 +0100 +0100",
+        "lastMod": "2024-11-01 22:06:37 +0100 +0100",
+        "permalink": "http://localhost:1313/issues/2024-11-01-21-56-1292663/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-11-01T22:06:37.043902923+01:00",
+        "affected": ["Runtime (eu-west-2)"],
+        "filename": "2024-11-01-21-56-1292663.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Disruption Detected",
+        "createdAt": "2024-11-01 21:45:42.081401046 +0100 +0100",
+        "lastMod": "2024-11-01 21:52:40 +0100 +0100",
+        "permalink": "http://localhost:1313/issues/2024-11-01-21-45-1292659/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-11-01T21:52:40.113239306+01:00",
+        "affected": ["Runtime (eu-west-2)"],
+        "filename": "2024-11-01-21-45-1292659.md"
+      }
+    
+  ]
+}
+
+
+
+
+

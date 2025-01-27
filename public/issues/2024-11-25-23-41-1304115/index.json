@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Legacy load balancer saturation",
+  "body": "\u003cp\u003eOne load balancer was attacked. It’s incoming session queue was overloaded. As a consequence, some requests may have timeout.\u003c/p\u003e\n",
+  "createdAt": "2024-11-25 23:41:52.899137912 +0100 +0100",
+  "lastMod": "2024-11-26 10:38:21 +0100 +0100",
+  "permalink": "http://localhost:1313/issues/2024-11-25-23-41-1304115/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2024-11-25T23:45:50.697734816+01:00",
+  "affected": ["Runtime (legacy)"],
+  "filename": "2024-11-25-23-41-1304115.md"
+}

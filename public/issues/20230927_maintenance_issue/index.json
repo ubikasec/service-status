@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Major outage on runtime",
+  "body": "\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eWe’re rolling out new docker runners. As instances roll one by one, there should be no service interruption. \n  \u003cspan class=\"faded\"\u003e(08:00 — Sep 27)\u003c/span\u003e\n\n\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eFirst docker runner checked up and running. \n  \u003cspan class=\"faded\"\u003e(09:09 — Sep 27)\u003c/span\u003e\n\n\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eSecond runner up and running. \n  \u003cspan class=\"faded\"\u003e(09:49 — Sep 27)\u003c/span\u003e\n\n\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eShutting down third runner node. Containers does not balance to the second node as it should be. \n  \u003cspan class=\"faded\"\u003e(09:50 — Sep 27)\u003c/span\u003e\n\n\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eRestarting third runner node. Runtime is back normal. \n  \u003cspan class=\"faded\"\u003e(09:55 — Sep 27)\u003c/span\u003e\n\n\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eRolling again second docker runner. Docker runner cluster state is now broken. As an emergency measure, starting to deploy the cluster from scratch to recover as fast as possible. \n  \u003cspan class=\"faded\"\u003e(10:15 — Sep 27)\u003c/span\u003e\n\n\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eCluster is back up and running. \n  \u003cspan class=\"faded\"\u003e(11:08 — Sep 27)\u003c/span\u003e\n\n\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eTeam is investigating on why the second node did not correctly join the cluster and why the cluster state broke at some point.\u003c/p\u003e\n",
+  "createdAt": "2023-09-27 09:50:00 +0000 UTC",
+  "lastMod": "2024-10-17 16:24:25 +0200 +0200",
+  "permalink": "http://localhost:1313/issues/20230927_maintenance_issue/",
+  "severity": "down",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2023-09-27 11:08:00",
+  "affected": ["Runtime"],
+  "filename": "20230927_maintenance_issue.md"
+}

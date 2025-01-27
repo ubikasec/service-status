@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Maintenance on Nov 2",
+  "body": "\u003cp\u003eMaintenance is scheduled for Thursday, November 2 at 5:30 a.m., and should last no longer than 1 hour.\u003cbr\u003e\nNo interruptions are planned, maintenance should be totally transparent.\u003c/p\u003e\n\u003cp\u003eMaintenance was longer than expected:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eInstead of transparently migrating the compute cluster, we had to reconstruct it asside. Without interruption on running trafic.\u003c/li\u003e\n\u003cli\u003eOnce this reconstruction was finished, traffic was switched to the new compute cluster. Thus, active connections have been interrupted by the load balancer reconfiguration. Thus some end-user clients may have seen disruption and reconnect around 08:20.\u003c/li\u003e\n\u003c/ul\u003e\n",
+  "createdAt": "2023-11-02 05:30:00 +0000 UTC",
+  "lastMod": "2024-10-17 16:24:25 +0200 +0200",
+  "permalink": "http://localhost:1313/issues/2023-11-02-05-30/",
+  "severity": "<no value>",
+  "resolved": true,
+  "informational": true,
+  "resolvedAt": "2023-11-02 08:26:00",
+  "affected": ["Runtime"],
+  "filename": "2023-11-02-05-30.md"
+}

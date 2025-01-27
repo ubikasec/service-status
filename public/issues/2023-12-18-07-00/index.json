@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Maintenance on Dec 18",
+  "body": "\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eDescription:\u003c/strong\u003e Hardware Upgrade\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eWhen:\u003c/strong\u003e Expected Upgrade Start Date and Time: 18 December 2023 at 7:00am CET to 8:00am CET\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eBusiness Impact:\u003c/strong\u003e This duration defines the Maintenance Window only and does not reflect a downtime duration. Interruption should not last longer than 5 minutes.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eExpected action(s) from customer:\u003c/strong\u003e None.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eOur OVHCloud private cloud infrastructure hosting UBIKA Cloud Protector is currently using an edge network management component that reached end-of-life support. Thus we must migrate to the new infrastructure provided by our private cloud provider. We are now ready to launch this migration.\u003cbr\u003e\nDuring the migration, \u003cstrong\u003ea network interruption is expected when moving the routing of our IP addresses pool\u003c/strong\u003e to the target infrastructure. \u003cstrong\u003eThis interruption should not last longer than 5 minutes\u003c/strong\u003e. During our tests, we observed an interruption between 2min and 2min30s.\u003c/p\u003e\n\u003cp\u003eYou have nothing to do on your side. DNS records and IP addresses will remain unchanged. This migration will be completely transparent for you, besides the network interruption.\u003c/p\u003e\n\u003cp\u003eWe apologize for the inconvenience caused by this migration. We are doing our utmost to minimize the impact of the interruption. Please do not hesitate to contact our support team if you encounter any problems following this migration.\u003c/p\u003e\n",
+  "createdAt": "2023-12-18 06:00:00 +0000 UTC",
+  "lastMod": "2024-10-17 16:24:25 +0200 +0200",
+  "permalink": "http://localhost:1313/issues/2023-12-18-07-00/",
+  "severity": "<no value>",
+  "resolved": true,
+  "informational": true,
+  "resolvedAt": "2023-11-18 06:15:00",
+  "affected": ["Runtime", "Runtime (legacy)"],
+  "filename": "2023-12-18-07-00.md"
+}

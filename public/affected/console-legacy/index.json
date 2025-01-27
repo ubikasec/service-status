@@ -1,0 +1,27 @@
+{
+  "is": "system",
+  "title": "Console (Legacy)",
+  "permalink": "http://localhost:1313/affected/console-legacy/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Login page wrongly reported as phishing",
+        "createdAt": "2024-11-14 08:00:00 +0100 +0100",
+        "lastMod": "2024-11-14 13:16:56 +0100 +0100",
+        "permalink": "http://localhost:1313/issues/2024-11-14-10-00-00/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-11-14T12:24:00+01:00",
+        "affected": ["Console (legacy)"],
+        "filename": "2024-11-14-10-00-00.md"
+      }
+    
+  ]
+}
+
+
+
+
+
