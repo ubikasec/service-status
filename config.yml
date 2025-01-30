@@ -169,9 +169,6 @@ params:
 # keep the global runtime for zabbix check
 # manual information can go in specific runtime if only one is impaired
     - name: Runtime (eu-west-2)
-      displayName: Runtime - Deprecated
-      category: Cloud Protector
-    - name: Runtime
       displayName: Runtime - Global
       category: Cloud Protector
     - name: Runtime (gra11)
