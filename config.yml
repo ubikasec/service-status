@@ -166,9 +166,10 @@ params:
     - name: API (gra9)
       displayName: API
       category: Cloud Protector
-# keep the global runtime for zabbix check
+# keep the global runtime for zabbix check: stay in line with user configuration
+# https://zabbix.ubika.io/zabbix.php?action=user.edit&userid=23
 # manual information can go in specific runtime if only one is impaired
-    - name: Runtime (eu-west-2)
+    - name: Runtime
       displayName: Runtime - Global
       category: Cloud Protector
     - name: Runtime (gra11)
