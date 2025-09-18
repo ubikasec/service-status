@@ -143,7 +143,6 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: Cloud Protector Legacy (eu-west-2)
     - name: Cloud Protector
 
   # These are your systems. Change them to
@@ -154,12 +153,6 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Console (legacy)
-      displayName: Console
-      category: Cloud Protector Legacy (eu-west-2)
-    - name: Runtime (legacy)
-      displayName: Runtime
-      category: Cloud Protector Legacy (eu-west-2)
     - name: Console (gra9)
       displayName: Console
       category: Cloud Protector
