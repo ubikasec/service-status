@@ -153,10 +153,10 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Console (gra9)
+    - name: Console
       displayName: Console
       category: Cloud Protector
-    - name: API (gra9)
+    - name: API
       displayName: API
       category: Cloud Protector
 # keep the global runtime for zabbix check: stay in line with user configuration
