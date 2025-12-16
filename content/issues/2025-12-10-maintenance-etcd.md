@@ -5,7 +5,8 @@ informational: true
 affected:
   - Console
 section: issue
-resolved: false
+resolved: true
+resolvedWhen: 2025-12-15T09:00:00+01:00
 ---
 Dear Customer, Dear Partner,
 
