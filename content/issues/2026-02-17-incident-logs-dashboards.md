@@ -14,6 +14,7 @@ There are currently disruptions on logs and dashboard access.
 All our teams are mobilized to get it back to 100% operational as soon as possible.
 This ticket will be updated as the investigation progresses.
 The Ubika Support Team
+
 ---
 Access to logs and dashboards has been fully restored.
 During the disruption, all logs were ingested; only viewing them was affected.
