@@ -8,7 +8,8 @@ affected:
   - Runtime
 section: issue
 severity: notice
-resolved: false
+resolved: true
+resolvedWhen: 2026-07-20T09:00:00+02:00
 ---
 Dear Customer, Dear Partner,
 
@@ -19,3 +20,13 @@ As a result, the infrastructure may experience some instability during this peri
 No action is required on your side.
 
 The Ubika Support Team
+
+---
+
+Dear Customer, Dear Partner,
+
+The maintenance performed by OVH has now been completed.
+No services impact was observed during the operation, and all systems remained fully operational.
+
+The Ubika Support Team
+{{< track "2026-04-28T11:10:00+02:00" >}}
