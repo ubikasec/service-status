@@ -35,7 +35,7 @@ make build   # production build into public/ (same flags as CI)
 make check   # build + validate public/index.xml (RSS feed used by the e-mail flow)
 ```
 
-Requirements: `make`, `curl`, `tar`, `git`, `xmllint` (package `libxml2`).
+Requirements: `make`, `curl`, `tar`, `git`, `python3` (feed validation).
 
 ### Upgrading Hugo or the cState theme
 

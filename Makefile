@@ -46,7 +46,7 @@ serve: $(HUGO) themes/cstate/theme.toml
 
 check: build
 	@echo "Checking public/index.xml"
-	@xmllint --noout public/index.xml
+	@python3 -c 'import sys, xml.dom.minidom; xml.dom.minidom.parse(sys.argv[1])' public/index.xml
 	@test "$$(grep -c '<item>' public/index.xml)" -gt 0
 	@grep -q '<category>status:' public/index.xml
 	@echo "Items:      $$(grep -c '<item>' public/index.xml)"
