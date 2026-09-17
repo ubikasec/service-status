@@ -1,0 +1,44 @@
+{{/*
+  Project-level override of themes/cstate/layouts/index.xml.
+
+  Identical to the theme's RSS feed, except that each item exposes machine-
+  readable <category> entries (severity, affected components, status) so that
+  feed consumers (Power Automate "When a feed item is published" -> e-mail)
+  can filter on them and render them without parsing the HTML description.
+*/}}
+{{ if not .Site.Params.disableIncidentHistory }}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+      <link>{{ .Permalink }}</link>
+      <description>{{ T "incidentHistory" }}</description>
+      <generator>github.com/cstate</generator>
+      {{ with .Site.Language.Locale }}<language>{{.}}</language>{{end}}
+      {{ if not .Date.IsZero }}
+      <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+      {{ end }}
+      {{ with .Site.Copyright }}
+      <copyright>{{.}}</copyright>{{end}}
+      {{ with .OutputFormats.Get "RSS" }}
+        {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+      {{ end }}
+      {{ $incidents := where .Site.RegularPages "Params.section" "issue" }}
+      {{ range $incidents }}
+        <item>
+          <title>{{ if .Params.resolved }}[{{ T "resolved" }}] {{ end }}{{ .Title }}</title>
+          <link>{{ .Permalink }}</link>
+          <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+          <guid>{{ .Permalink }}</guid>
+          <category>status:{{ if .Params.resolved }}resolved{{ else }}ongoing{{ end }}</category>
+          {{ with .Params.severity }}<category>severity:{{ trim . " " }}</category>{{ end }}
+          {{ if .Params.informational }}<category>type:informational</category>{{ end }}
+          {{ range .Params.affected }}<category>affected:{{ . }}</category>
+          {{ end }}
+          {{ with .Params.resolvedWhen }}<category>resolvedWhen:{{ . }}</category>{{ end }}
+          <description>{{ .Content | html }}</description>
+        </item>
+      {{ end }}
+    </channel>
+  </rss>
+{{ end }}
