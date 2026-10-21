@@ -14,3 +14,14 @@ Scheduled: night of 21 to 22 October 2026, between 22:00 and 06:00 CEST.
 We are deploying a security update to all Cloud Protector applications to protect them against the PHP2Shell attack (CVE-2026-109619). This attack abuses the PHP session upload progress mechanism to gain remote code execution on vulnerable PHP backends.
 
 Impact: no action is required on your side and no service interruption is expected. The update is applied progressively to each application and takes effect within a minute of being applied.
+---
+
+Dear Customer, Dear Partner,
+
+Scheduled: 22 October 2026, starting at 11:00 CEST.
+
+We are deploying an additional security update to all Cloud Protector applications to further strengthen protection against the PHP2Shell attack (CVE-2026-109619).
+
+We are actively monitoring all new publications related to these CVEs, and further updates may be deployed over the coming days.
+
+The Ubika Support Team
