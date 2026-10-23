@@ -6,6 +6,8 @@ affected:
     - Runtime
 section: issue
 severity: notice
+resolved: true
+resolvedWhen: 2026-10-23T18:00:00+02:00
 ---
 Dear Customer, Dear Partner,
 
