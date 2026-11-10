@@ -1,12 +1,13 @@
 ---
-title: Delay in log ingestion — no impact on protection
+title: Degraded log viewing — no impact on protection
 date: 2026-11-10T10:20:00+02:00
 informational: false
 affected:
     - Console
 section: issue
 severity: disrupted
-resolved: false
+resolved: true
+resolvedWhen: 2026-11-10T15:00:00+02:00
 
 ---
 Dear Customer, Dear Partner,
